@@ -1,0 +1,282 @@
+*{
+	margin :0;
+	padding: 0;
+}
+.header{
+
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(Images/Background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+nav{
+	display: flex;
+	padding: 0% 4%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+nav img{
+	width: 100px;
+}
+.nav-links{
+	flex: 6;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 15px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+	transition: 0.5s;
+}
+
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+.text-box h1{
+	font-size: 40px;
+}
+
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 25px;
+	color: #fff;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+/*-----course-----*/
+
+.Services{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+
+}
+h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+
+}
+.row{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.Services-col{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 15px 12px;
+	box-sizing: border-box;
+	transition: 0.5;
+}
+
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.Services-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	
+}
+/*-------About us page-----*/
+.sub-header{
+	height: 50vh;
+	width: 100%;
+	background-image: url(Images/About.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.about-col{
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+
+.about-col img{
+	width: 100%;
+}
+
+.about-col h1{
+	padding-top: 0;
+}
+
+.about-col p{
+	padding: 15px 0 25px;
+	font-size: 15px;
+}
+.red-btn{
+	border: 1px solid #f44336;
+	background: transparent;
+	color: #f44336;
+}
+.red-btn:hover{
+	color: #fff;
+
+}
+.sub-header{
+	
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+}
+
+.Contact-us{
+	    padding: 10px;
+	    font-family: 'Outfit';
+		/*---background:linear-gradient(#ffdad5,#fff7f9);---*/
+		background: linear-gradient(#E0E0E0);
+
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		background-color: #f0f0f0;
+
+
+}
+.contact-left
+{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 20px;
+}
+.contact-left-title h2{
+	font-weight: 600;
+	color: #a363aa;
+	font-size: 40px;
+	margin-bottom: 5px;
+
+
+}
+.contact-left-title hr{
+	border: none;
+	width: 120px;
+	height: 5px;
+	background-color: #CCCCCC;
+	border-radius: 10px;
+	margin-bottom: 20px;	
+}
+.Contact-inputs{
+	width: 400px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	font-weight: 500;
+	color: #666;
+	border-radius: 50px;
+}
+.contact-left textarea{
+	height: 140px;
+	padding-top: 15px;
+	border-radius: 20px;
+
+}
+.Contact-inputs:focus{
+	border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder{
+	color: #a9a9a9;
+}
+.contact-left button{
+	display: flex;
+	align-items: center;	
+}
+.contact-left button{
+	display: flex;
+	align-items: center;
+	padding: 15px 30px;
+	font-size: 16px;
+	color: #fff;
+	gap: 10px;
+	border: none;
+	border-radius: 50px;
+	background: linear-gradient(270deg,#ff994f,#fa6d86);
+	cursor: pointer;
+}
+

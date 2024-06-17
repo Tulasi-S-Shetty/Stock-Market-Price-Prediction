@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Stock Market Price Prediction</title>
+	<link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="Images/images.jpg"></a>
+			<div class = "nav-links">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<!--<li><a href="ContactUs.html">CONTACT US</a></li>-->
+					
+					
+				</ul>
+			</div>
+		</nav>
+	<div class="text-box">
+	<h1>Stock Market Prediction</h1>
+	<p>Welcome to the future of Investing</p>
+	<!----<form action="/predict" method="POST">
+	<button type="submit" class="hero-btn">Click here to Predict Stock </button>
+	<a href="{{ url_for('/predict') }}">Click here to go to Python page</a>
+	<a href="/predict" class="hero-btn">Click here to Predict Stock</a>------>
+	<a onclick="openCMD()" class="hero-btn">Click here to Predict Stock</a>
+	</div>	
+
+	<script>
+		function openCMD() {
+		  window.open('http://localhost:8501', "_self");
+		}
+	</script>
+
+
+	</section>
+
+	<!--------Our Services-------->
+		<section class="Services">
+			<h1>Services we Offer</h1>
+			<p>The goal of the stock price prediction web page is to provide users with valuable insights and tools to make informed decisions about their investments in the stock market.</p>
+
+			<div class="row">
+				<div class="Services-col">
+					<h1>Trusted</h1>
+					<p>Approved by AICTE (All India Council for Technical Education) approval typically pertains to educational institutions and courses related to finance, data science, or machine learning. AICTE approval ensures that the institution or course meets certain standards of quality and curriculum set by the council.</p>
+				</div>
+
+				<div class="Services-col">
+					<h1>Accurate Predictions</h1>
+					<p>We Provide accurate stock predictions.Accurate predictions rely on high-quality data. This includes historical stock prices, market indices, trading volumes, company financials, economic indicators, and sentiment data. Ensuring data accuracy, completeness, and reliability is crucial for building robust prediction models.</p>
+				</div>
+
+				<div class="Services-col">
+					<h1>Earn Money</h1>
+					<p>Earn more money by investing at right place.Successful stock price prediction starts with a deep understanding of market dynamics, including factors influencing supply and demand, investor sentiment, economic indicators, and industry trends. By staying informed and conducting thorough research, individuals can identify potential opportunities for profit.</p>
+				</div>
+
+				<!-----<div class="Services-col">
+					<h1>Secure</h1>
+					<p>A highly secure website</p>
+				</div>
+
+				<div class="Services-col">
+					<h1>Real Time Stocks</h1>
+					<p>Provides real time stock quotes for the companies.</p>
+				</div>
+
+				<div class="Services-col">
+					<h1>Stock Prediction</h1>
+					<p>Utilizing machine learning algorithms or statistical models to forecast future stock prices based on historical data and market trends.</p>
+				</div>---->
+
+			</div>
+
+
+		</section>
+		<!---Footer--->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Connect with this application on social media and join our community of investors, traders, and enthusiasts.<br> Share insights, ask questions, and stay updated on the latest news and trends in the stock market.</p>
+			<div class="icons">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin"></i>
+				
+			</div>
+			<p>Made with <i class="far fa-heart"></i> </p>
+		</section>
+</body>
+
+</html>
